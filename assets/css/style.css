@@ -16,6 +16,16 @@ a {
     text-decoration: auto;
 }
 
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px #FFFFFF
+}
+
 .button_bulet{
 			border-radius: 15px;
 		}
@@ -28,7 +38,7 @@ a {
   .navbar .has-megamenu{position:static!important;}
   .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
 
-}	
+}
 /* ============ desktop view .end// ============ */
 
 /* ============ mobile view ============ */
