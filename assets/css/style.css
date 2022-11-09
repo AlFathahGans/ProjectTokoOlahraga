@@ -12,23 +12,23 @@
 }
 
 a {
-    color: black;
-    text-decoration: auto;
+  color: black;
+  text-decoration: auto;
 }
 
 .list-group-item {
-    position: relative;
-    display: block;
-    padding: 0.5rem 1rem;
-    color: #212529;
-    text-decoration: none;
-    background-color: #fff;
-    border: 0px #FFFFFF;
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0px #FFFFFF;
 }
 
 .button_bulet{
-			border-radius: 15px;
-		}
+ border-radius: 15px;
+}
 
 .navbar .megamenu{ padding: 1rem; }
 
@@ -45,7 +45,24 @@ a {
 @media(max-width: 991px){
   .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
     overflow-y: auto;
-      max-height: 90vh;
-      margin-top:10px;
+    max-height: 90vh;
+    margin-top:10px;
   }
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
 }
