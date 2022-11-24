@@ -8,25 +8,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/logo/logo.png">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-	<style type="text/css" media="screen">
-
-		.img_slider{
-			width: 100%;
-			height: 250px;
-		}
-		.img_slider_stop{
-			width: 100%;
-			height: 128px;
-			padding: 0px 0px 5px 0px;
-		}
-		.navbar_background{
-			background-color: #009688!important;
-		}
-		.button_bulet{
-			border-radius: 15px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<div id="header">
@@ -50,13 +32,13 @@
 						<li class="nav-item col-6 col-md-auto">
 							<a class="nav-link p-2" href="#">Ikuti Kami di</a>
 						</li>
-						<li class="nav-item col-6 col-md-auto">
+						<li class="nav-item col-6 col-md-auto mt-1">
 							<a class="nav-link p-2" href="#"><i class="fa fa-brands fa-instagram"></i></a>
 						</li>
-						<li class="nav-item col-6 col-md-auto">
+						<li class="nav-item col-6 col-md-auto mt-1">
 							<a class="nav-link p-2" href="#"><i class="fa fa-brands fa-facebook"></i></a>
 						</li>
-						<li class="nav-item col-6 col-md-auto">
+						<li class="nav-item col-6 col-md-auto mt-1">
 							<a class="nav-link p-2" href="#"><i class="fa fa-brands fa-youtube"></i></a>
 						</li>
 					</ul>
@@ -87,64 +69,352 @@
 					<img src="images/logo/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
 					DuniaSport
 				</a>
-				<button class="btn bd-sidebar-toggle d-md-none py-0 px-1 ms-3 order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
-				</button>
-				<div class="col-8">
-					<form class="d-flex">
-						<input class="form-control me-2" type="search" placeholder="Cari di DuniaSport" aria-label="Search">
-						<button class="btn btn-outline-light" type="submit"><i class="fa fa-solid fa-search"></i></button>
-					</form>
-				</div>
-				<div class="col-1 p-2">
-					<a class="navbar-brand" href="#">
-						<i class="fa fa-shopping-basket"></i>
-						<span class="position-absolute badge rounded-pill bg-danger" style="font-size: 11px;font-weight: 500;">0</span>
-					</a>
-				</div>
-			</div>
-		</nav>
-	</div>
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<button type="button" class="btn btn-outline-light dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-list"></i></button>
+						<ul class="dropdown-menu" style="margin-top: 1rem;" aria-labelledby="navbarScrollingDropdown">
 
-	<section class="p-4">
-		<div class="container">
-			<h3 class="mb-4">Detail Produk</h3>
-			<div class="row row-cols-1 row-cols-md-3 g-4">
-				<div class="col-sm-6">
-					<div class="card h-100">
-						<img src="images/produk/helm_speda.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Card title 1</h5>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<li class="nav-item dropdown dropdown-hover position-static">
+								<a class="dropdown-item" href="#" id="navbarDropdown1" role="button"
+								data-mdb-toggle="dropdown" aria-expanded="false">
+								Sepak Bola
+							</a>
+							<!-- Dropdown menu -->
+							<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown1" style="margin-top: 1rem; width:1000px;border-top-left-radius: 0;border-top-right-radius: 0;left: 100% !important;top: 0%;">
+								<div class="container">
+									<div class="row my-4">
+										<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+											<div class="list-group list-group-flush">
+												<p class="list-group-item list-group-item-action"><b>Sepatu</b></p>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Adidas</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Specs</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Ortuseight</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+											<div class="list-group list-group-flush">
+												<p class="list-group-item list-group-item-action"><b>Bola</b></p>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Adidas</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Specs</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Ortuseight</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+											<div class="list-group list-group-flush">
+												<p class="list-group-item list-group-item-action"><b>Jersey</b></p>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Adidas</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Specs</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Ortuseight</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-3">
+											<div class="list-group list-group-flush">
+												<p class="list-group-item list-group-item-action"><b>Celana</b></p>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Adidas</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Specs</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Ortuseight</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-3">
+											<div class="list-group list-group-flush">
+												<p class="list-group-item list-group-item-action"><b>Kaos Kaki</b></p>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaos Kaki Adidas</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaos Kaki Specs</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaos Kaki Ortuseight</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-3">
+											<div class="list-group list-group-flush">
+												<p class="list-group-item list-group-item-action"><b>Tas</b></p>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Tas Adidas</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Tas Specs</a>
+												<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Tas Ortuseight</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown dropdown-hover position-static">
+							<a class="dropdown-item" href="#" id="navbarDropdown1" role="button"
+							data-mdb-toggle="dropdown" aria-expanded="false">
+							Futsal
+						</a>
+						<!-- Dropdown menu -->
+						<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown1" style="margin-top: 1rem; width:1000px;border-top-left-radius: 0;border-top-right-radius: 0;left: 100% !important;top: 0%;">
+							<div class="container">
+								<div class="row my-4">
+									<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+										<div class="list-group list-group-flush">
+											<p class="list-group-item list-group-item-action"><b>Sepatu</b></p>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Adidas</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Specs</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Ortuseight</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+										<div class="list-group list-group-flush">
+											<p class="list-group-item list-group-item-action"><b>Bola</b></p>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Adidas</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Specs</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Ortuseight</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+										<div class="list-group list-group-flush">
+											<p class="list-group-item list-group-item-action"><b>Jersey</b></p>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Adidas</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Specs</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Ortuseight</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3">
+										<div class="list-group list-group-flush">
+											<p class="list-group-item list-group-item-action"><b>Celana</b></p>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Adidas</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Specs</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Ortuseight</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3">
+										<div class="list-group list-group-flush">
+											<p class="list-group-item list-group-item-action"><b>Kaos Kaki</b></p>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaos Kaki Adidas</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaos Kaki Specs</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaos Kaki Ortuseight</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3">
+										<div class="list-group list-group-flush">
+											<p class="list-group-item list-group-item-action"><b>Tas</b></p>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Tas Adidas</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Tas Specs</a>
+											<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Tas Ortuseight</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item dropdown dropdown-hover position-static">
+						<a class="dropdown-item" href="#" id="navbarDropdown1" role="button"
+						data-mdb-toggle="dropdown" aria-expanded="false">
+						Renang
+					</a>
+					<!-- Dropdown menu -->
+					<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown1" style="margin-top: 1rem; width:1000px;border-top-left-radius: 0;border-top-right-radius: 0;left: 100% !important;top: 0%;">
+						<div class="container">
+							<div class="row my-4">
+								<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+									<div class="list-group list-group-flush">
+										<p class="list-group-item list-group-item-action"><b>Kaca Mata</b></p>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaca Mata Adidas</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaca Mata Specs</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Kaca Mata Ortuseight</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+									<div class="list-group list-group-flush">
+										<p class="list-group-item list-group-item-action"><b>KickBoard</b></p>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">KickBoard Adidas</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">KickBoard Specs</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">KickBoard Ortuseight</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3">
+									<div class="list-group list-group-flush">
+										<p class="list-group-item list-group-item-action"><b>Fins</b></p>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Fins Adidas</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Fins Specs</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Fins Ortuseight</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+									<div class="list-group list-group-flush">
+										<p class="list-group-item list-group-item-action"><b>Baju</b></p>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Baju Adidas</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Baju Specs</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Baju Ortuseight</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3">
+									<div class="list-group list-group-flush">
+										<p class="list-group-item list-group-item-action"><b>Celana</b></p>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Adidas</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Specs</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Ortuseight</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-3">
+									<div class="list-group list-group-flush">
+										<p class="list-group-item list-group-item-action"><b>Topi</b></p>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Topi Adidas</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Topi Specs</a>
+										<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Topi Ortuseight</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="card h-100">
-						<div class="card-body">
-							<h5 class="card-title">Sepatu Futsal Specs Metasala Grand Turbo - Ultimate Gray/Lotus/Noir</h5>
-							<p class="card-text">0 Ulasan</p>
-							<p>Rp. 50.000</p>
-							<p>Stok : Tersedia</p>
-							<p>
-								<b style="margin-right: 13px;">Size</b> 
-								<button type="button" class="btn btn-sm btn-rounded btn-outline-success button_bulet">37</button>
-								<button type="button" class="btn btn-sm btn-outline-success button_bulet">38</button>
-								<button type="button" class="btn btn-sm btn-outline-success button_bulet">39</button>
-								<button type="button" class="btn btn-sm btn-outline-success button_bulet">40</button>
-								<button type="button" class="btn btn-sm btn-outline-success button_bulet">41</button>
-							</p>
-							<p>
-								<button type="button" class="btn btn-dark">Primary</button>
-								<button type="button" class="btn btn-warning">Beli</button>
-								<button type="button" class="btn btn-success">Chat WA</button>
-							</p>
+				</li>
+				<li class="nav-item dropdown dropdown-hover position-static">
+					<a class="dropdown-item" href="#" id="navbarDropdown1" role="button"
+					data-mdb-toggle="dropdown" aria-expanded="false">
+					Voli
+				</a>
+				<!-- Dropdown menu -->
+				<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown1" style="margin-top: 1rem; width:1000px;border-top-left-radius: 0;border-top-right-radius: 0;left: 100% !important;top: 0%;">
+					<div class="container">
+						<div class="row my-4">
+							<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+								<div class="list-group list-group-flush">
+									<p class="list-group-item list-group-item-action"><b>Sepatu</b></p>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Adidas</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Specs</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Sepatu Ortuseight</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+								<div class="list-group list-group-flush">
+									<p class="list-group-item list-group-item-action"><b>Bola</b></p>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Adidas</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Specs</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Bola Ortuseight</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+								<div class="list-group list-group-flush">
+									<p class="list-group-item list-group-item-action"><b>Jersey</b></p>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Adidas</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Specs</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Jersey Ortuseight</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3">
+								<div class="list-group list-group-flush">
+									<p class="list-group-item list-group-item-action"><b>Celana</b></p>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Adidas</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Specs</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Celana Ortuseight</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3">
+								<div class="list-group list-group-flush">
+									<p class="list-group-item list-group-item-action"><b>Net</b></p>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Net Adidas</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Net Specs</a>
+									<a href="produk/futsal/sepatu.html" class="list-group-item list-group-item-action">Net Ortuseight</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</li>
+		</ul>
+	</li>
+</ul>
+<button class="btn bd-sidebar-toggle d-md-none py-0 px-1 ms-3 order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+</button>
+<div class="col-8 mt-3">
+	<form class="d-flex">
+		<input class="form-control me-2" type="search" placeholder="Cari di DuniaSport" aria-label="Search">
+		<button class="btn btn-outline-light" type="submit"><i class="fa fa-solid fa-search"></i></button>
+	</form>
+</div>
+<div class="col-1 p-2">
+	<a class="navbar-brand" href="#">
+		<i class="fa fa-shopping-basket"></i>
+		<span class="position-absolute badge rounded-pill bg-danger" style="font-size: 11px;font-weight: 500;">0</span>
+	</a>
+</div>
+</div>
+</nav>
+</div>
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
-	</html>
+<section class="p-4">
+	<div class="container">
+		<h3 class="mb-4">Detail Produk</h3>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col-sm-6">
+				<div class="card h-100">
+					<img src="images/produk/helm_speda.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title 1</h5>
+						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">Sepatu Futsal Specs Metasala Grand Turbo - Ultimate Gray/Lotus/Noir</h5>
+						<p class="card-text">0 Ulasan</p>
+						<p>Rp. 50.000</p>
+						<p>Stok : Tersedia</p>
+						<p>
+							<b style="margin-right: 13px;">Size</b>
+							<button type="button" class="btn btn-sm btn-rounded btn-outline-success button_bulet">37</button>
+							<button type="button" class="btn btn-sm btn-outline-success button_bulet">38</button>
+							<button type="button" class="btn btn-sm btn-outline-success button_bulet">39</button>
+							<button type="button" class="btn btn-sm btn-outline-success button_bulet">40</button>
+							<button type="button" class="btn btn-sm btn-outline-success button_bulet">41</button>
+						</p>
+						<p>
+							<div class="row">
+								<div class="col-md-8">
+									<input type="button" class="btn btn-dark" onclick="decrementValue()" value="-" />
+									<input type="text" class="btn btn-outline-dark" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+									<input type="button" class="btn btn-dark" onclick="incrementValue()" value="+" />
+									<button type="button" class="btn btn-warning">Beli</button>
+									<button type="button" class="btn btn-success">Chat WA</button>
+								</div>
+							</div>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="container">
+	<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+		<div class="col-md-4 d-flex align-items-center">
+			<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+				<svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+			</a>
+			<span class="text-muted">© 2022 DuniaSport</span>
+		</div>
+
+		<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+		</ul>
+	</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	function incrementValue()
+	{
+		var value = parseInt(document.getElementById('number').value, 10);
+		value = isNaN(value) ? 0 : value;
+		if(value<10){
+			value++;
+			document.getElementById('number').value = value;
+		}
+	}
+	function decrementValue()
+	{
+		var value = parseInt(document.getElementById('number').value, 10);
+		value = isNaN(value) ? 0 : value;
+		if(value>1){
+			value--;
+			document.getElementById('number').value = value;
+		}
+
+	}
+</script>
+</body>
+</html>
